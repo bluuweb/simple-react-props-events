@@ -10,6 +10,8 @@ const App = () => {
     const [password, setPassword] = useState("");
     const [error, setError] = useState("");
 
+    // localStorage
+
     const handleSubmit = (e) => {
         e.preventDefault();
 
